@@ -3,7 +3,7 @@ services:
   chatapp:
     image: 'kevinsasian/nodejs_docker_repo:latest'
     environment:
-      - "PORT:3000"
+      - "PORT:3700"
     ports:
       - "80:80"
     volumes:
